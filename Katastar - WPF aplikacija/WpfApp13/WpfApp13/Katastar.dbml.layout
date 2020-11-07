@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Katastar">
+  <DataContextMoniker Name="/KatastarDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4ce68fa9-291e-4bb3-b15a-ec9338139e18" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/KatastarDataContext/KatastarskeOpstine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87ad9a37-ebb6-4c53-b710-1160b799f5c6" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54f25973-218a-490b-b52b-c81c5656451e" absoluteBounds="3.5, 0.875, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/KatastarDataContext/Objekti" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15d27ff6-9876-412b-850b-a4788502b267" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3b46296e-552d-4c7f-812e-9c46742d7619" absoluteBounds="0.75, 4, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/KatastarDataContext/Parcele" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b028c7d5-9ea4-4ca2-9461-6705430a47c3" absoluteBounds="0.765, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KatastarDataContext/KatastarskeOpstine/KatastarskeOpstine_Objekti" />
+      <nodes>
+        <classShapeMoniker Id="4ce68fa9-291e-4bb3-b15a-ec9338139e18" />
+        <classShapeMoniker Id="54f25973-218a-490b-b52b-c81c5656451e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.88544840494792); (4.5 : 4.88544840494792); (4.5 : 2.8381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KatastarDataContext/Parcele/Parcele_Objekti" />
+      <nodes>
+        <classShapeMoniker Id="3b46296e-552d-4c7f-812e-9c46742d7619" />
+        <classShapeMoniker Id="54f25973-218a-490b-b52b-c81c5656451e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

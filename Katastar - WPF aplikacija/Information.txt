@@ -1,0 +1,1 @@
+WPF apliccation in Visual studio 2017 , whit linq and sql managment studio 

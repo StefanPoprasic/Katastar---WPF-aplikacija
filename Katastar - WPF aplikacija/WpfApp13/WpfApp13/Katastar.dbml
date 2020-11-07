@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Katastar" Class="KatastarDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=POPRASIC-PC\SQLEXPRESS;Initial Catalog=Katastar;Integrated Security=True" SettingsObjectName="WpfApp13.Properties.Settings" SettingsPropertyName="KatastarConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KatastarskeOpstine" Member="KatastarskeOpstines">
+    <Type Name="KatastarskeOpstine">
+      <Column Name="IDKatOpstina" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Naziv" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="KatastarskeOpstine_Objekti" Member="Objektis" ThisKey="IDKatOpstina" OtherKey="IDKatOpstine" Type="Objekti" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Objekti" Member="Objektis">
+    <Type Name="Objekti">
+      <Column Name="IDObjekta" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Vlasnik" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kvadratura" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Uknjizeno" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IDParcele" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDKatOpstine" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KatastarskeOpstine_Objekti" Member="KatastarskeOpstine" ThisKey="IDKatOpstine" OtherKey="IDKatOpstina" Type="KatastarskeOpstine" IsForeignKey="true" />
+      <Association Name="Parcele_Objekti" Member="Parcele" ThisKey="IDParcele,IDKatOpstine" OtherKey="IDParcele,IDKatOpstine" Type="Parcele" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Parcele" Member="Parceles">
+    <Type Name="Parcele">
+      <Column Name="IDParcele" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDKatOpstine" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Povrsina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Adresa" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Vlasnistvo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Parcele_Objekti" Member="Objektis" ThisKey="IDParcele,IDKatOpstine" OtherKey="IDParcele,IDKatOpstine" Type="Objekti" />
+    </Type>
+  </Table>
+</Database>

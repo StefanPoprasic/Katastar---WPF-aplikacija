@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfApp13.UnosNovog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp13"
+        mc:Ignorable="d"
+        Title="UnosNovog" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Key="Opstine">
+            <StackPanel Orientation="Horizontal" Margin="3">
+                <TextBlock Text="{Binding Naziv}"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="PrikazParcela">
+            <StackPanel Orientation="Horizontal" Margin="3">
+                <TextBlock Text="{Binding IDParcele}"/>
+                <TextBlock Text="        "/>
+                <TextBlock Text="{Binding Adresa}"/>
+                <TextBlock Text="        "/>
+                <TextBlock Text="{Binding Vlasnistvo}"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="PrikazParcela1">
+            <StackPanel Orientation="Horizontal" Margin="3">
+                <TextBlock Text="1"/>
+                <TextBlock Text="        "/>
+                <TextBlock Text="2"/>
+                <TextBlock Text="        "/>
+                <TextBlock Text="3"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+ 
+<Grid>
+        <Label Content="Katastarska opstina" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbKatOpstina" ItemTemplate="{StaticResource Opstine}" HorizontalAlignment="Left" Margin="137,51,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CbKatOpstina_SelectionChanged"/>
+        <Label Content="Uknjizeno" HorizontalAlignment="Left" Margin="470,258,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kvadratura" HorizontalAlignment="Left" Margin="470,204,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vlasnik" HorizontalAlignment="Left" Margin="470,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sifra" HorizontalAlignment="Left" Margin="470,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Parcela" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSifra" HorizontalAlignment="Left" Height="23" Margin="579,106,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbKvadratura" HorizontalAlignment="Left" Height="23" Margin="579,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbVlasnik" HorizontalAlignment="Left" Height="23" Margin="579,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="cbUknjizeno" HorizontalAlignment="Left" Margin="579,263,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPotvrdi" Content="Potvrid" HorizontalAlignment="Left" Margin="503,337,0,0" VerticalAlignment="Top" Width="75" Click="BtnPotvrdi_Click"/>
+        <Button x:Name="btnOdustani" Content="Odustani" HorizontalAlignment="Left" Margin="624,337,0,0" VerticalAlignment="Top" Width="75" Click="BtnOdustani_Click"/>
+        <ListBox x:Name="lbParcela" ItemTemplate="{StaticResource PrikazParcela}" HorizontalAlignment="Left" Height="205" Margin="63,106,0,0" VerticalAlignment="Top" Width="338"/>
+
+    </Grid>
+</Window>

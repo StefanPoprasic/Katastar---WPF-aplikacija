@@ -1,0 +1,51 @@
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe.config
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\bin\Debug\WpfApp13.pdb
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csprojAssemblyReference.cache
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\MainWindow.g.cs
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\App.g.cs
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.cache
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.lref
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\MainWindow.baml
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.g.resources
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.Properties.Resources.resources
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.GenerateResource.cache
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.CoreCompileInputs.cache
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.exe
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\WpfApp13.pdb
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\UnosNovog.g.cs
+C:\Users\POPRASIC\source\repos\WpfApp13\WpfApp13\obj\Debug\UnosNovog.baml
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe.config
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\bin\Debug\WpfApp13.pdb
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csprojAssemblyReference.cache
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\MainWindow.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\UnosNovog.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\App.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.cache
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.lref
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\MainWindow.baml
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\UnosNovog.baml
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.g.resources
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.Properties.Resources.resources
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.GenerateResource.cache
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.CoreCompileInputs.cache
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.exe
+C:\Users\POPRASIC\Desktop\Projketi\WpfApp13\WpfApp13\obj\Debug\WpfApp13.pdb
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe.config
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\bin\Debug\WpfApp13.exe
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\bin\Debug\WpfApp13.pdb
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csprojAssemblyReference.cache
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\MainWindow.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\UnosNovog.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\App.g.cs
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.cache
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13_MarkupCompile.lref
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\MainWindow.baml
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\UnosNovog.baml
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.g.resources
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.Properties.Resources.resources
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.GenerateResource.cache
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.csproj.CoreCompileInputs.cache
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.exe
+C:\Users\POPRASIC\Desktop\Projketi\Katastar - WPF aplikacija\WpfApp13\WpfApp13\obj\Debug\WpfApp13.pdb
